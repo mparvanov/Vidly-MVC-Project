@@ -77,3 +77,4 @@ C:\work\Vidly-MVC-Project\Vidly\Vidly\obj\Debug\Vidly.csproj.CoreCompileInputs.c
 C:\work\Vidly-MVC-Project\Vidly\Vidly\obj\Debug\Vidly.csproj.CopyComplete
 C:\work\Vidly-MVC-Project\Vidly\Vidly\obj\Debug\Vidly.dll
 C:\work\Vidly-MVC-Project\Vidly\Vidly\obj\Debug\Vidly.pdb
+C:\work\Vidly-MVC-Project\Vidly\Vidly\obj\Debug\Vidly.csprojAssemblyReference.cache
