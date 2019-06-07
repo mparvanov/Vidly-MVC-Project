@@ -23,7 +23,7 @@ namespace Vidly.Controllers
         //map request data to parameters actions
         public ActionResult Edit(int id)
         {
-            return Content("id=" +id);
+            return Content("id=" + id);
         }
 
         // optional parameters in actions
@@ -35,6 +35,7 @@ namespace Vidly.Controllers
                 sortBy = "Name";
             return Content(String.Format("pageIndex={0}&sortBy={1}", pageIndex, sortBy));
         }
+        [Route("movies/ByReleaseDate/{year}/{month:regex(\\d{2}):range(1, 12)}")]
         public ActionResult ByReleaseDate(int year, int month)
         {
             return Content(year + "/" + month);
